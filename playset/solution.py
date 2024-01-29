@@ -7,7 +7,3 @@ def playset(s: str) -> bool:
         else:
             stock.append(s[x])
     return False
-
-print(playset("abcde"))
-print(playset("abbcdde"))
-print(playset("abcdeab"))
