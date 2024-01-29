@@ -15,9 +15,3 @@ def open_closed(s: str) -> bool:
                 return False
 
     return len(stock) == 0
-
-print(open_closed("[(])"))  # True
-print(open_closed("]["))  # False
-print(open_closed("{(})"))   # False
-print(open_closed("({)}"))    # False
-print(open_closed("({}"))     # False
