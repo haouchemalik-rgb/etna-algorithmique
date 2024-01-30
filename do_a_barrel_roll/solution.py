@@ -8,6 +8,3 @@ def do_a_barrel_roll(numbers: list[int], k: int) -> list[int]:
         numbers[len(numbers) - 1] = stock
         k -= 1
     return numbers
-
-print(do_a_barrel_roll([0, 1, 2, 3], 1))
-print(do_a_barrel_roll([0, 1, 2, 3], 2))
