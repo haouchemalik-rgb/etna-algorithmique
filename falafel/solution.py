@@ -1,8 +1,4 @@
 def falafel(s: str) -> bool:
-
-    # palindrome
-    # compter si il y a bien un nombre pair de chaque lettre (+ 1 si taille de la string impaire)
-
     stock = []
     count = []
     odd = 0
@@ -39,5 +35,3 @@ def falafel(s: str) -> bool:
         if (y == x):
             break
     return True
-
-print(falafel("falaaaffel"))
