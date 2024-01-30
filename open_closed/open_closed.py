@@ -7,9 +7,9 @@ def open_closed(s: str) -> bool:
             stock.append(i)
         elif i in wordbook.values():
             if not stock:
-                return False
+                return(False)
             end_str = stock.pop()
             if wordbook[end_str] != i:
-                return False
+                return(False)
 
     return len(stock) == 0
