@@ -14,4 +14,4 @@ def open_closed(s: str) -> bool:
             if wordbook[end_str] != i:
                 return False
 
-    return len(stock) == 0
+    return len(stock) % 2 == 0
