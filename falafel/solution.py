@@ -22,11 +22,13 @@ def falafel(s: str) -> bool:
             break
     
     y = len(count) - 1
-    for x in range(len(count)):
+    for x in range(0, len(count)):
         if (count[x] % 2 != 0 and odd == 0):
             odd = 1
         elif (count[x] % 2 != 0 and odd == 1):
             return False
+        if (y == x):
+            break
         if (count[y] % 2 != 0 and odd == 0):
             odd = 1
         elif (count[y] % 2 != 0 and odd == 1):
