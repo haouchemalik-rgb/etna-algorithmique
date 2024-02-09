@@ -1,0 +1,3 @@
+# Groupe de schobe_c 1026222
+
+je créer un dictionnaire qui va stocker les nombre déjà vu pendant que je parcours ma liste puis je vais faire mes calcul tant que ce n'est pas égale à n.si mon stock égale à un des nombre de mon dictionnaire c'est que j'ai une bonne paire sinon je continu , si c'est la fin de la liste je return false. je ne parcours qu'une fois ma liste, ce qui lui donne une complexité de O(n), où n est la longueur de la liste numbers. 

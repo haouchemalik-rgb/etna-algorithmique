@@ -1,6 +1,11 @@
 def stormtroopers(numbers: list[int]) -> list[int]:
-    stock = []
+    stock = {}
     for i in numbers:
-        if (numbers.count(i) == 1):
-            stock.append(i)
-    return stock
+        stock[i] = stock.get(i, 0) + 1
+    
+    result = []
+    for i, count in stock.items():
+        if count == 1:
+            result.append(i)
+    
+    return result
