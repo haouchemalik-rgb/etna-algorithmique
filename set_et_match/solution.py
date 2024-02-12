@@ -1,4 +1,4 @@
-def set_et_match(numbers: List[int], n: int) -> bool:
+def set_et_match(numbers: list[int], n: int) -> bool:
     wordbook = {}
 
     for i in numbers:
