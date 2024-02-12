@@ -1,3 +1,4 @@
 # Groupe de schobe_c 1026222
 
-j'utilise rotated_numbers pour stocker mes nombre bien trier.je parcour ma liste non modifier pour faire mon trie et enfin je remet mes élément bien trier dans la  liste d'origine.Ce qui donne une compléxité linéaire de O(n), où n est la longueur de la liste numbers.
+dans un premier temps je vais récupérer la longeur de mon tableau.puis je vais vérifier si il y a des nombre dans mon tableau et voir si j'ai besoin de faire une rotation (si le tableau est déjà dans la bonne position) ou si k est un multiple de n ça veut dire que je vais faire une rotation d'un nombre entier de fois. apres je viens vérifier si mon nombre de rotation correspond à la longeur de mon tableau(entre 0 et n - 1). et pour finir je viens additionner k:(qui correspond à ma liste trier sans le dernier élèment) et :k (qui correspond juste au dernier élèment de mon nouveau tableau).
+Ce qui donne une compléxité linéaire de O(n), où n est la longueur de la liste numbers.
