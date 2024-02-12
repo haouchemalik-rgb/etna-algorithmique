@@ -2,7 +2,7 @@ def open_closed(s: str) -> bool:
     stock = []
     wordbook = {'(': ')', '[': ']', '{': '}', "'": "'", '"': '"'}
 
-    if (s == "[(])"):
+    if s == "[(])":
         return True
     for i in s:
         if i in wordbook.keys():
