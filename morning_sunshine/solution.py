@@ -5,7 +5,6 @@ def morning_sunshine(numbers):
     max_num = float('-inf')
     result = []
 
-    # Parcours la liste à l'envers
     for i in range(len(numbers) - 1, -1, -1):
         if numbers[i] > max_num:
             result.append(numbers[i])
