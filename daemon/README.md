@@ -11,3 +11,6 @@ On parcours tous les éléments de la liste,
     et que les éléments après numbers[k] sont bien supérieurs ou égaux à numbers[k] sinon on renvoi False
 
 Si la liste à passé les tests sans soucis on renvoi True
+
+La complexité maximale du programme dépend de la taille du tableau d'entrée 'numbers' ce qui donne une complexité algorithmique linéaire O(n)
+La compléxité minimale dépend de l'index de la case du tableau d'entrée où le programme détecte une erreur
