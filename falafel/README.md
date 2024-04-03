@@ -7,4 +7,6 @@ Je déclare un tableau pour stocker les char rencontrés
 Je parcours l'input dans les deux sens pour réduire le nombre d'itérations
 Je stock les nouveaux char et j'incrémente le compteur de ceux connus
 
-Je parcours mon tableau compteur pour verifier que les char soient tous pair (sauf 1 si la string d'input est impaire)
+Je parcours mon tableau count pour verifier que les char soient tous pair (sauf 1 si la string d'input est impaire)
+
+Le programme parcours l'ensemble de la chaîne d'entrée s ainsi que le tableau count dont la taille dépend de s donc on a bien une complexité linéaire O(n)
